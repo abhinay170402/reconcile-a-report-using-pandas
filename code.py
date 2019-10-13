@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Code starts here
+#reading the dataset
 df=pd.read_csv(path)
 df['state']=df['state'].str.lower()
 df['total']=df['Jan']+df['Feb']+df['Mar']
